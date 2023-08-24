@@ -6,14 +6,14 @@
 }
 
 body {
-    height: 100vh;
+    height: 120vh;
     box-sizing: border-box;
     background-color: black;
     color: white;
 }
 
 .titulo-destaque {
-    color: #22d4fd;
+    color:orange
 }
 .conteudo {
         margin: 10%;
@@ -42,18 +42,27 @@ body {
 }
 
 .botao {
-        background-color: #22d4fd;
+        background-color: orange;
         color: black;
         width: 280px;
         text-align: center;
         border-radius: 16px;
-        font-size: 24px;
+        font-size: 40px;
         padding: 21.5px 0;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
+        margin: 70px;
+
+}
+.botao:hover {
+        background-color:antiquewhite
 }
 
 .imagem {
-        max-width: 35%;
+        max-width: 32%;
         width: auto;
 }
+
+.image-with-border {
+        border: 2px solid #000; /* Altere a largura da borda e a cor conforme necessário */
+        padding: 10px; /* Opcional: para dar um espaçamento interno à imagem */ }
