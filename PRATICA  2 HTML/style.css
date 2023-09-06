@@ -13,7 +13,7 @@ body {
     height: 100vh;
 
     /* Cria um gradiente de cores de cima para baixo como plano de fundo */
-    background: linear-gradient(to bottom, #1d2b53, #7e2553, #ff5555);
+    background: linear-gradient(to bottom, #d38b06, #000, #000);
 
     /* Define o tamanho de fundo para cobrir toda a área disponível */
     background-size: cover;
@@ -128,6 +128,14 @@ body {
     /* Define o espaçamento entre os elementos filhos como 20px */
     gap: 20px;
 }
+
+.apresentacao-links-conteudo{ 
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
 
 
 .imagem {
@@ -363,8 +371,19 @@ body {
         transform: translate(-50%, -50%);
     }
     
-    /* fim estilização ancora5(botao5) */
-    
-    /* inicio estilização imagem */
-    
-    /* Estilos para elementos com a classe .imagem */
+    .rodape{
+        color: white;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Krona One', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 20px;
+
+    }
+    .rodape a:hover {
+        color: #ffa500;
+    }
